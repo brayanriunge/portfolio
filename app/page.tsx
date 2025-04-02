@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <main>
-      <div></div>
-    </main>
+    <div className="relative bg-black-100 overflow-hidden mx-auto px-5 sm:px-10 flex justify-between items-center flex-col ">
+      <div className="max-w-7xl w-full">
+        <Hero />
+      </div>
+    </div>
   );
 }
