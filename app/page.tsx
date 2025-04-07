@@ -5,7 +5,6 @@ export default function Home() {
     <div className="relative  overflow-hidden mx-auto px-5 sm:px-10 flex justify-between items-center flex-col bg-[#000319]">
       <div className="max-w-7xl w-full">
         <Hero />
-        hello
       </div>
     </div>
   );
