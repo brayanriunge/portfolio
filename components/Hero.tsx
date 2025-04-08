@@ -2,6 +2,7 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { cn } from "@/lib/utils";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 const Hero = () => {
   return (
@@ -32,8 +33,14 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] lg:max-w-[60vw] md:max-w-2xl flex flex-col justify-center ">
           <h2 className="text-center tracking-widest text-xs text-blue-100 uppercase max-w-80">
-            Dynamic web
+            Dynamic web magic with next.js
           </h2>
+          <TextGenerateEffect
+            words="Transforming Concepts Into Seamless Experiences"
+            className="text-center lg:text-6xl md:text-5xl text-[40px]"
+            duration={2}
+            filter={true}
+          />
         </div>
       </div>
     </div>
