@@ -15,4 +15,17 @@
   }
 }
 
+:root {
+  --foreground: #000;
+  --background: #fff;
+}
 
+.dark {
+  --foreground: #fff;
+  --background: #000;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
