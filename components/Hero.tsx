@@ -32,15 +32,16 @@ const Hero = () => {
       </div>
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] lg:max-w-[60vw] md:max-w-2xl flex flex-col justify-center ">
-          <h2 className="text-center tracking-widest text-xs text-blue-100 uppercase max-w-80">
+          <h2 className="text-center tracking-widest text-xs text-blue-[#E4ECFF] uppercase max-w-80">
             Dynamic web magic with next.js
           </h2>
           <TextGenerateEffect
             words="Transforming Concepts Into Seamless Experiences"
             className="text-center lg:text-6xl md:text-5xl text-[40px]"
-            duration={2}
-            filter={true}
           />
+          <p className="text-center  text-sm md:text-lg lg:text-2xl tracking-wider mb-4">
+            Hi, I&apos;m Brian, a software developer based in Nyahururu
+          </p>
         </div>
       </div>
     </div>
