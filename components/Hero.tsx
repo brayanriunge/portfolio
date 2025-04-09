@@ -3,6 +3,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
+import MagicButton from "./ui/MagicButton";
 
 const Hero = () => {
   return (
@@ -42,6 +43,9 @@ const Hero = () => {
           <p className="text-center  text-sm md:text-lg lg:text-2xl tracking-wider mb-4">
             Hi, I&apos;m Brian, a software developer based in Nyahururu
           </p>
+          <a href="">
+            <MagicButton title="My Work" />
+          </a>
         </div>
       </div>
     </div>
