@@ -49,7 +49,6 @@ export const BentoGridItem = ({
           {description}
         </div>
       </div>
-      <div>hey</div>
     </div>
   );
 };
