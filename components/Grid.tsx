@@ -1,12 +1,13 @@
 import { section } from "motion/react-client";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
+import { gridItems } from "@/data";
 
 const Grid = () => {
   return (
     <section>
       <BentoGrid>
-        {[{ title: "title1", description: "desc1", id: 1 }].map((item) => (
+        {gridItems.map((item) => (
           <BentoGridItem
             id={item.id}
             key={item.id}
