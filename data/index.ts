@@ -10,7 +10,7 @@ export const gridItems = [
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
-    className: "lg:col-span-2 md:col-span-6 md:row-span-4 lg:min-h-20",
+    className: "md:col-span-3 md:row-span-4 lg:col-span-3 lg:min-h-[60dvh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -20,7 +20,7 @@ export const gridItems = [
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
-    className: "lg:col-span-1 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
@@ -76,7 +76,7 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "/ui.earth.com",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "/ui.yoom.com",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "/ui.aiimg.com",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/brayanriunge",
+    link: "/ui.apple.com",
   },
 ];
 

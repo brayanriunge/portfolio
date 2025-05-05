@@ -5,7 +5,7 @@ import { gridItems } from "@/data";
 const Grid = () => {
   return (
     <section>
-      <BentoGrid>
+      <BentoGrid className="relative overflow-hidden py-12">
         {gridItems.map(
           ({
             id,
