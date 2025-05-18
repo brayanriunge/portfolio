@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBG";
+import { GlobeDemo } from "./GridGlobe";
 
 export const BentoGrid = ({
   className,
@@ -94,6 +95,7 @@ export const BentoGridItem = ({
             <div className="font-sans font-bold tex-lg lg:text-3xl max-w-96 z-10">
               {title}
             </div>
+            {id === 2 && <GlobeDemo />}
           </div>
         </div>
       </div>
