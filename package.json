@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^10.0.8",
+    "@react-three/fiber": "^9.0.0-alpha.8",
     "@tabler/icons-react": "^3.31.0",
     "@types/tailwindcss": "^3.0.11",
     "clsx": "^2.1.1",
@@ -22,7 +24,9 @@
     "react-icons": "^5.5.0",
     "tailwind-merge": "^3.2.0",
     "tailwindcss-animate": "^1.0.7",
-    "tailwindcss-colors": "^2.0.0"
+    "tailwindcss-colors": "^2.0.0",
+    "three": "^0.176.0",
+    "three-globe": "^2.42.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
