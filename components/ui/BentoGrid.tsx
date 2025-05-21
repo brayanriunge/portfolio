@@ -95,7 +95,7 @@ export const BentoGridItem = ({
             <div className="font-sans font-bold tex-lg lg:text-3xl max-w-96 z-10">
               {title}
             </div>
-            {/* {id === 2 && <GlobeDemo />} */}
+            {id === 2 && <GlobeDemo />}
           </div>
         </div>
       </div>
