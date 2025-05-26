@@ -2,7 +2,6 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBG";
 // import { GlobeDemo } from "./GridGlobe";
-
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import animationData from "@/data/confetti.json";
